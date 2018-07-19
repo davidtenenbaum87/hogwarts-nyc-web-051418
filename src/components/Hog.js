@@ -21,7 +21,7 @@ class Hog extends Component {
   render() {
     return (
       <div className='pigTile'>
-        <img src={".././hog-imgs/" + this.hogImgName() + ".jpg"}/>
+        <img src={"./hog-imgs/" + this.hogImgName() + ".jpg"}/>
         <p>{this.state.name}</p>
         <p>{this.state.specialty}</p>
         <p>{this.state.greased}</p>
